@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  calculator:
+    build: .
+    environment:
+      - HEIGHT=1.80
+      - WEIGHT=85
+    volumes:
+      - ./data:/app/data
